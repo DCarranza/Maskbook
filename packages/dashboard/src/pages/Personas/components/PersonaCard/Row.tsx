@@ -159,6 +159,7 @@ export const PersonaRowCardUI = memo<PersonaRowCardUIProps>((props) => {
             )}
             <DeletePersonaDialog
                 open={deleteDialogOpen}
+                identifier={identifier}
                 onClose={() => setDeleteDialogOpen(false)}
                 nickname={nickname}
             />

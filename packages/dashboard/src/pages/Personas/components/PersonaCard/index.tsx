@@ -157,6 +157,7 @@ export const PersonaCardUI = memo<PersonaCardUIProps>((props) => {
                 />
             )}
             <DeletePersonaDialog
+                identifier={identifier}
                 open={deleteDialogOpen}
                 onClose={() => setDeleteDialogOpen(false)}
                 nickname={nickname}
